@@ -122,3 +122,21 @@ python main.py
 (3) Load → Upload file to GCS & insert valid rows into BigQuery.
 
 (4) Notify → Send email alerts on success, errors, or no files found.
+
+## 📷 Example Outputs
+
+### 1. Successful Pipeline Execution
+
+![Terminal Logs](assets/terminal_output.png)
+
+### 2. Processed Files in GCS
+
+![GCS Buckets](assets/gcs_processed.png)
+
+### 3. Inserted Data in BigQuery
+
+![BigQuery Table](assets/bigquery_table.png)
+
+### 4. Email Notification
+
+![Email Success](assets/email_success.png)
